@@ -12,6 +12,7 @@
 
 1. fork 此仓库
 2. 在 setting -> Secrets，添加一个 secret，Name 为 SITE，Value 为 **评论后台网站的地址**。
+3. star 自己的仓库，这样是为了手动触发一次定时任务。
 
 
 
