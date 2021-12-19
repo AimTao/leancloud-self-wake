@@ -19,3 +19,15 @@
 # ADDED
 
 图文见blog：[一行命令解决 LeanCloud 流控问题](https://www.aimtao.net/slef-wake-leancloud/)
+
+
+# UPDATA
+
+提醒：60 天此仓库没有任何更新，Github Action 就会被停止，点击 Action 页面的激活按钮就可以重新启动。
+
+
+# FREEZE
+我已经用 crontab 来替代 Github Action 了，如果你有服务器，只需 `crontab -e` 设置定时任务。
+```sh
+*/29 7-23 * * * curl https://your_site && date "+%D %H:%M:%S" >> ~/curl_log
+```
