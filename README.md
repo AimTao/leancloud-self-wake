@@ -29,5 +29,5 @@
 # FREEZE
 我已经用 crontab 来替代 Github Action 了，如果你有服务器，只需 `crontab -e` 设置定时任务。
 ```sh
-*/29 7-23 * * * curl https://your_site && date "+%D %H:%M:%S" >> ~/curl_log
+*/29 7-23 * * * curl https://your_site &> /dev/null && date "+\%D \%H:\%M:\%S" >> ~/wakeup.log
 ```
